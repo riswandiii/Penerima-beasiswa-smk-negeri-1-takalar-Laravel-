@@ -28,6 +28,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+// Tesssss
+
 // Route untuk masuk ke HomeController
 Route::get('/', [HomeController::class, 'index'])->middleware('auth');
 
